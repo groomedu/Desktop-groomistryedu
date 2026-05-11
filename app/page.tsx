@@ -182,22 +182,25 @@ export default function GroomistryEDULandingPage() {
                 </p>
               </div>
               <form className="flex flex-col justify-center gap-3" onSubmit={(e) => e.preventDefault()}>
-                <input
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  type="email"
-                  placeholder="Enter your email"
-                  className="h-13 rounded-full border border-white/10 bg-white px-5 py-4 text-slate-950 outline-none ring-teal-300 placeholder:text-slate-400 focus:ring-4"
-                />
+  <input
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    type="email"
+    placeholder="Enter your email"
+    className="h-13 rounded-full border border-white/10 bg-white px-5 py-4 text-slate-950 outline-none ring-teal-300 placeholder:text-slate-400 focus:ring-4"
+  />
+
   <a
-  rel="noopener noreferrer"
->
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfpwlyCC_zGP-kKaEgaGnusG3MEGiWXImCPszJ-YJfkrFPkvA/viewform?usp=publish-editor"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
   <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
     Join Waitlist
-  </Button>
-</a>
+    </Button>
+  </a>
                 <p className="text-xs text-slate-400">No spam. Just launch updates and educator opportunities.</p>
-              </form>
+</form>
             </CardContent>
           </Card>
         </section>
@@ -294,9 +297,15 @@ export default function GroomistryEDULandingPage() {
               Join the waitlist and help shape a marketplace made for groomers, by groomers.
             </p>
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+              <a
+         href=  "https://docs.google.com/forms/d/e/1FAIpQLSfpwlyCC_zGP-kKaEgaGnusG3MEGiWXImCPszJ-YJfkrFPkvA/viewform?usp=publish-editor"
+              target="_blank"
+  rel="noopener noreferrer"
+>
               <Button className="h-12 rounded-full bg-white px-7 text-base font-bold text-teal-800 hover:bg-teal-50">
                 Join Waitlist
               </Button>
+      </a>        
               <Button variant="outline" className="h-12 rounded-full border-white bg-transparent px-7 text-base font-bold text-white hover:bg-white hover:text-teal-800">
                 Educator Interest
               </Button>
