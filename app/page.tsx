@@ -189,9 +189,13 @@ export default function GroomistryEDULandingPage() {
                   placeholder="Enter your email"
                   className="h-13 rounded-full border border-white/10 bg-white px-5 py-4 text-slate-950 outline-none ring-teal-300 placeholder:text-slate-400 focus:ring-4"
                 />
-                <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
-                  Join the Waitlist
-                </Button>
+  <a
+  rel="noopener noreferrer"
+>
+  <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+    Join Waitlist
+  </Button>
+</a>
                 <p className="text-xs text-slate-400">No spam. Just launch updates and educator opportunities.</p>
               </form>
             </CardContent>
