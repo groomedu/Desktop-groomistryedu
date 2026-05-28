@@ -73,10 +73,7 @@ export default function GroomistryEDULandingPage() {
     Join Waitlist
   </Button>
 </a>
-  <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
-    Join the Waitlist
-  </Button>
-</a>
+ 
         </div>
       </header>
 
@@ -197,7 +194,6 @@ export default function GroomistryEDULandingPage() {
 
   <a
    
- 
   href="https://tally.so/r/ZjZ4Yo"
   target="_blank"
   rel="noopener noreferrer"
