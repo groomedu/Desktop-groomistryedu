@@ -65,16 +65,15 @@ export default function GroomistryEDULandingPage() {
             <a href="#categories" className="hover:text-teal-700">Categories</a>
           </nav>
          <a
- className="overflow-hidden rounded-2xl bg-white p-2">
-  <iframe
-    src="https://tally.so/embed/ZjZ4Yo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-    width="100%"
-    height="420"
-    frameBorder="0"
-    marginHeight={0}
-    marginWidth={0}
-    title="GroomistryEDU Waitlist"
-  ></iframe>
+  href="https://tally.so/r/ZjZ4Yo"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+    Join Waitlist
+  </Button>
+</a>
+  </iframe>
 </div>
 
   <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
@@ -201,12 +200,17 @@ export default function GroomistryEDULandingPage() {
 
   <a
    
-  >
-  <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+ 
+  href="https://tally.so/r/ZjZ4Yo"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
+    Join the Waitlist
+  </Button>
+</a>
     
-    Join Waitlist
-    </Button>
-  </a>
+ 
                 <p className="text-xs text-slate-400">No spam. Just launch updates and educator opportunities.</p>
 </form>
             </CardContent>
@@ -315,11 +319,8 @@ export default function GroomistryEDULandingPage() {
     Join the Waitlist
   </Button>
 </a>
->
-              <Button className="h-12 rounded-full bg-white px-7 text-base font-bold text-teal-800 hover:bg-teal-50">
-                Join Waitlist
-              </Button>
-      </a>        
+
+              
               <Button variant="outline" className="h-12 rounded-full border-white bg-transparent px-7 text-base font-bold text-white hover:bg-white hover:text-teal-800">
                 Educator Interest
               </Button>
