@@ -73,8 +73,6 @@ export default function GroomistryEDULandingPage() {
     Join Waitlist
   </Button>
 </a>
- 
-
   <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
     Join the Waitlist
   </Button>
