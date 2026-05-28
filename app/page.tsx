@@ -65,8 +65,18 @@ export default function GroomistryEDULandingPage() {
             <a href="#categories" className="hover:text-teal-700">Categories</a>
           </nav>
          <a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSfpwlyCC_zGP-kKaEgaGnusG3MEGiWXImCPszJ-YJfkrFPkvA/viewform?usp=publish-editor"
-  rel="noopener noreferrer"
+ className="overflow-hidden rounded-2xl bg-white p-2">
+  <iframe
+    src=<iframe data-tally-src="https://tally.so/embed/ZjZ4Yo?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="303" frameborder="0" marginheight="0" marginwidth="0" title="GroomisteryEDU Waitlist"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+    width="100%"
+    height="420"
+    frameBorder="0"
+    marginHeight={0}
+    marginWidth={0}
+    title="GroomistryEDU Waitlist"
+  ></iframe>
+</div>
 >
   <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
     Join the Waitlist
