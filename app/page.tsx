@@ -73,8 +73,7 @@ export default function GroomistryEDULandingPage() {
     Join Waitlist
   </Button>
 </a>
-  </iframe>
-</div>
+ 
 
   <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
     Join the Waitlist
@@ -205,8 +204,8 @@ export default function GroomistryEDULandingPage() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
-    Join the Waitlist
+   <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+    Join Waitlist
   </Button>
 </a>
     
@@ -315,8 +314,8 @@ export default function GroomistryEDULandingPage() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
-    Join the Waitlist
+   <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+    Join Waitlist
   </Button>
 </a>
 
