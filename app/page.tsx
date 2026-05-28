@@ -200,11 +200,10 @@ export default function GroomistryEDULandingPage() {
   />
 
   <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSfpwlyCC_zGP-kKaEgaGnusG3MEGiWXImCPszJ-YJfkrFPkvA/viewform?usp=publish-editor"
-    target="_blank"
-    rel="noopener noreferrer"
+   
   >
   <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
+    
     Join Waitlist
     </Button>
   </a>
@@ -307,9 +306,15 @@ export default function GroomistryEDULandingPage() {
             </p>
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
               <a
-         href=  "https://docs.google.com/forms/d/e/1FAIpQLSfpwlyCC_zGP-kKaEgaGnusG3MEGiWXImCPszJ-YJfkrFPkvA/viewform?usp=publish-editor"
-              target="_blank"
+         
+  href="https://tally.so/r/ZjZ4Yo"
+  target="_blank"
   rel="noopener noreferrer"
+>
+  <Button className="h-13 rounded-full bg-teal-600 px-7 py-4 text-base font-bold hover:bg-teal-500">
+    Join the Waitlist
+  </Button>
+</a>
 >
               <Button className="h-12 rounded-full bg-white px-7 text-base font-bold text-teal-800 hover:bg-teal-50">
                 Join Waitlist
