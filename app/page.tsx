@@ -68,10 +68,9 @@ export default function GroomistryEDULandingPage() {
   href="https://tally.so/r/ZjZ4Yo"
   target="_blank"
   rel="noopener noreferrer"
+  className="inline-flex rounded-full bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800"
 >
-  <Button className="rounded-full bg-teal-700 px-5 text-white hover:bg-teal-800">
   Join Waitlist
-</Button>
 </a>
  
         </div>
