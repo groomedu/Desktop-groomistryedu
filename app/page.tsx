@@ -68,8 +68,7 @@ export default function GroomistryEDULandingPage() {
   href="https://tally.so/r/ZjZ4Yo"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-full bg-teal-700 px-5 py-2 text-sm font-bold text-white hover:bg-teal-800"
-  style={{ color: "white" }}
+  className="inline-flex rounded-full bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800"
 >
   Join Waitlist
 </a>
