@@ -69,9 +69,9 @@ export default function GroomistryEDULandingPage() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <Button className="rounded-full bg-teal-700 px-5 hover:bg-teal-800">
-    Join Waitlist
-  </Button>
+  <Button className="rounded-full bg-teal-700 px-5 text-white hover:bg-teal-800">
+  Join Waitlist
+</Button>
 </a>
  
         </div>
