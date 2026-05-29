@@ -64,17 +64,16 @@ export default function GroomistryEDULandingPage() {
             <a href="#educators" className="hover:text-teal-700">For Educators</a>
             <a href="#categories" className="hover:text-teal-700">Categories</a>
           </nav>
-        <a
-  href="https://tally.so/r/ZjZ4Yo"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex rounded-full bg-teal-700 px-5 py-2 text-sm font-semibold text-white hover:bg-teal-800"
+
+<Button
+  onClick={() => window.open("https://tally.so/r/ZjZ4Yo", "_blank")}
+  className="rounded-full bg-teal-700 px-5 text-white hover:bg-teal-800"
 >
   Join Waitlist
-</a>
- 
-        </div>
-      </header>
+</Button>
+
+</div>
+</header>
 
       {/* Hero */}
       <main>
